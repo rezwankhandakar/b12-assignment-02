@@ -1,0 +1,74 @@
+
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.noto-serif-font{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* nav-section */
+.nav-section{
+    display: flex;
+    border: 2px solid black;
+    height: 85px;
+    width: 1140px;
+    margin-top: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    align-items:center;
+    justify-content: space-between;
+   
+}
+.list-item{
+    display: flex;
+    gap: 20px;
+}
+.list-item li {
+    list-style: none;
+}
+
+/* banner-section */
+.banner-section{
+    width: 1140px;
+    height: 461px;
+    border: 2px solid black;
+    margin: 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-title{
+    font-size:65px;
+    font-weight: 700;
+
+}
+.title-color{
+    color:#E95A08;
+}
+.banner-description{
+    font-size: 22px;
+    font-weight:400;
+    color: #7b7c80;
+}
+.banner-img{
+    height: 355px;
+    width: 570px;
+}
+
+/* our-plants-section */
+
+.our-plants{
+    height: 1186px;
+    width: 1140px;
+    border: 2px solid black;
+    margin: 150px;
+}
