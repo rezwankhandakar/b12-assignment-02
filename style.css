@@ -16,6 +16,14 @@
   font-variation-settings:
     "wdth" 100;
 }
+
+/* shared style */
+.shared-description{
+    font-size: 22px;
+    font-weight:400;
+    color: #7b7c80;
+}
+
 /* nav-section */
 .nav-section{
     display: flex;
@@ -54,11 +62,7 @@
 .title-color{
     color:#E95A08;
 }
-.banner-description{
-    font-size: 22px;
-    font-weight:400;
-    color: #7b7c80;
-}
+
 .banner-img{
     height: 355px;
     width: 570px;
@@ -71,4 +75,46 @@
     width: 1140px;
     border: 2px solid black;
     margin: 150px;
+    text-align: center;
+}
+.plants-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.oreng-our{
+    color:#E95A08;
+}
+.card-1{
+    height:484px;
+    width: 270px;
+    border: 2px solid black;
+    text-align: center;
+}
+.card-1 h6{
+    margin-top: 8px;
+    margin-bottom: 2px;
+    font-size: 22px;
+    font-weight:500;
+}
+.card-1 h5{
+    margin-top: 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+.card-1 button{
+    height: 55px;
+    width: 270px;
+    font-size: 16px;
+    font-weight: 400;
+    color:#FFFFFF;
+    background-color:#E95A08;
+    border: none;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 15px;
+    row-gap: 40px;
 }
