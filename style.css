@@ -18,7 +18,7 @@
 }
 
 /* shared style */
-.shared-description{
+.{
     font-size: 22px;
     font-weight:400;
     color: #7b7c80;
@@ -126,6 +126,7 @@
     width: 1140px;
     border: 2px solid black;
     margin: 150px;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
 }
@@ -157,7 +158,68 @@
 .flower-plants-discription li{
 margin-bottom: 15px;
 }
+/* latest Deals-section */
+.latest-section{
+    height: 200px;
+    width: 1440px;
+    border: 2px solid black;
+    text-align: center;
+}
+.latest-title{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.latest-title span{
+    color: #E95A08;
+}
+/* .plant-section */
+.plant-section{
+    height: 423px;
+    width: 1140px;
+    border: 2px solid black;
+    margin: 150px;
+    margin-top: 50px;
+}
+.plant-section{
+    display: flex;
+}
+.mini-img img{
+    margin-bottom: 20px;
+    border-radius: 20px;
+    filter: brightness(50%);
+}
+.big-img img{
+    border-radius: 30px;
+    filter: brightness(50%);
+    
+}
+.img-wapper {
+  position: relative;
+  display: inline-block;
+}
 
+.img-wapper img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.img-text {
+  position: absolute;
+  bottom: 50px;
+  left: 100px;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 18px;
+  text-align: center;
+}
+.img-text p{
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 300;
+}
 /* responsive */
 @media screen and (max-width:576px) {
     .nav-section{
@@ -237,5 +299,18 @@ margin-bottom: 15px;
 }
 .trusted-badge-img{
     display: none;
+}
+.flower-plants-title{
+    font-size: 24px;
+    font-weight: 600;
+}
+.flower-plants-discription{
+    font-size: 14px;
+    font-weight: 400;
+}
+.latest-section{
+    width: 100%;
+        height: auto;
+        margin: 20px auto;
 }
 }
