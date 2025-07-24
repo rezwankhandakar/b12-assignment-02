@@ -165,17 +165,17 @@
     row-gap: 20px;
 }
    .card-1{
-    height:400px;
-    width: 180px;
+    height:370px;
+    width: 160px;
      
 }
 .card-1 img{
-    height: 250px;
-    width: 180px;
+    height: 220px;
+    width: 150px;
 }
 .card-1 button{
-    height: 50px;
-    width: 180px;
+    height: 35px;
+    width: 150px;
 }
 
 }
