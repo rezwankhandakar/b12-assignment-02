@@ -67,6 +67,12 @@
     height: 355px;
     width: 570px;
 }
+.banner-img img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
 
 /* our-plants-section */
 
@@ -91,6 +97,7 @@
     width: 270px;
     border: 2px solid black;
     text-align: center;
+     
 }
 .card-1 h6{
     margin-top: 8px;
@@ -139,10 +146,11 @@
     .banner-title {
         font-size: 32px;
         text-align: center;
+        
     }
 
     .banner-img {
-        width: 90%;
+        width: 100%;
         height: auto;
     }
     .our-plants{
@@ -150,40 +158,24 @@
         height: auto;
         margin: 20px auto;
     }
+    /* card-mobaile-responsive */
     .card-container{
-        grid-template-columns: repeat(2,1fr);
-        box-sizing: border-box;
-        column-gap: 5px;
-    }
-    /* exampla */
-    .card-1{
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 10px;
+    row-gap: 20px;
+}
+   .card-1{
     height:400px;
-    width: 230px;
-    border: 2px solid black;
-    text-align: center;
-}
-.card-1 h6{
-    margin-top: 6px;
-    margin-bottom: 2px;
-    font-size: 15px;
-    font-weight:460;
-}
-.card-1 h5{
-    margin-top: 0;
-    font-size: 18px;
-    font-weight: 600;
-}
-.card-1 button{
-    height: 45px;
-    width: 220px;
-    font-size: 12px;
-    font-weight: 350;
-    color:#FFFFFF;
-    background-color:#E95A08;
-    border: none;
+    width: 180px;
+     
 }
 .card-1 img{
-    width: 220px;
-    height: 270px;
+    height: 250px;
+    width: 180px;
 }
+.card-1 button{
+    height: 50px;
+    width: 180px;
+}
+
 }
