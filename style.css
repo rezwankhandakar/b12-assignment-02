@@ -220,6 +220,8 @@ margin-bottom: 15px;
     font-size: 16px;
     font-weight: 300;
 }
+/* big-img-section */
+
 /* responsive */
 @media screen and (max-width:576px) {
     .nav-section{
@@ -312,5 +314,20 @@ margin-bottom: 15px;
     width: 100%;
         height: auto;
         margin: 20px auto;
+}
+.mini-img img{
+    height: auto;
+    width: 100%;
+}
+.big-img img{
+    height: auto;
+    width: 100%;
+}
+/* plant-section */
+.plant-section{
+     width: 100%;
+        height: auto;
+        margin: 20px auto;
+        flex-direction: column;
 }
 }
