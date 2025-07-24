@@ -67,12 +67,7 @@
     height: 355px;
     width: 570px;
 }
-.banner-img img {
-    width: 100%;
-    height: auto;
-    max-width: 100%;
-    display: block;
-}
+
 
 /* our-plants-section */
 
@@ -125,6 +120,44 @@
     column-gap: 15px;
     row-gap: 40px;
 }
+/* Flower & Plants */
+.flower-plants{
+    height: 600px;
+    width: 1140px;
+    border: 2px solid black;
+    margin: 150px;
+    display: flex;
+    align-items: center;
+}
+.flower-plants-img-container{
+    height: 597px;
+    width: 540px;
+    position: relative;
+  display: inline-block;
+}
+.flower-store-img{
+    width: 100%;
+  height: auto;
+  display: block;
+}
+.trusted-badge-img{
+    position: absolute;
+  top: -100px;
+  right: -60px;
+  width: 200px;
+  height: auto;
+}
+.flower-plants div{
+    margin-left: 50px;
+}
+.flower-plants-title{
+    font-size: 40px;
+    font-weight: 600;
+}
+.flower-plants-discription li{
+margin-bottom: 15px;
+}
+
 /* responsive */
 @media screen and (max-width:576px) {
     .nav-section{
@@ -153,6 +186,12 @@
         width: 100%;
         height: auto;
     }
+    .banner-img img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
     .our-plants{
         width: 100%;
         height: auto;
@@ -165,17 +204,38 @@
     row-gap: 20px;
 }
    .card-1{
-    height:370px;
-    width: 160px;
+    height:320px;
+    width: 140px;
      
 }
 .card-1 img{
-    height: 220px;
-    width: 150px;
+    height: 185px;
+    width: 135px;
 }
 .card-1 button{
-    height: 35px;
-    width: 150px;
+    height: 30px;
+    width: 120px;
 }
-
+/* Flower & Plants Lover */
+.flower-plants{
+    flex-direction: column;
+        width: 100%;
+        height: auto;
+        margin: 20px auto;
+        /* align-items: center; */
+        /* text-align: center; */
+}
+.flower-plants-img-container{
+     width: 100%;
+        height: auto;
+}
+.flower-store-img{
+    height: auto;
+    width: 358px;
+     max-width: 100%;
+    display: block;
+}
+.trusted-badge-img{
+    display: none;
+}
 }
